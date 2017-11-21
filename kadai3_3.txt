@@ -1,0 +1,19 @@
+サイト構成
+
+newregister.php（新規登録）
+↑↓
+newlogin.php（ログイン）
+↓
+keijiban.php（投稿）←	←
+↓			↑
+↓			↑
+↓			↑	
+edit.php（編集画面）	↑
+↓			↑
+editconf.php（編集したものを上書きする）
+
+
+keijiban.php（投稿）とdisplay.php（表示）とedit.php（編集）とdelete.php（削除）
+はそれぞれ好きなページに行けるようになっている。
+ただし、edit.phpを（編集）実行するときはeditconf.phpに移動し、
+上記の図のようにしか移動できないようにする。

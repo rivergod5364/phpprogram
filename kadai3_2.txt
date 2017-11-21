@@ -1,0 +1,20 @@
+設計書
+
+全機能一覧
+新規登録ページ、ログインページ、投稿ページ、閲覧ページ、削除ページ、編集ページ
+
+
+データベースの構造
+テーブル名　idname
+カルム名　型名 
+name　	　int(4)型
+id　　	　VARCHAR(80)型
+passwd	　VARCHAR(80)型
+
+テーブル名　log1
+カルム名　 型名		役割
+no 	 　INT(4),	投稿番号
+name	 　VARCHAR(80),	投稿者名
+text	 　VARCHAR(80),	投稿内容
+time	 　VARCHAR(80),	投稿時間
+passwd	 　INT(4)	パスワード
